@@ -1,5 +1,5 @@
 div {
-  padding: .7rem;
+  padding: 0.7rem;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -28,7 +28,7 @@ div section {
 }
 
 div section p {
-  padding: 1.5rem 0.7rem;
+  padding: 1.4rem 0.7rem;
   text-align: center;
 }
 

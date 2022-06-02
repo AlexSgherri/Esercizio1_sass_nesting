@@ -1,9 +1,10 @@
 $color-primary: red;
 $color-secondary: blue;
 $color-ternary: green;
+$padding-unit: 0.7rem;
 
 div {
-    padding: .7rem;
+    padding: $padding-unit;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
@@ -19,7 +20,7 @@ div {
       display: flex;
       
       p{
-          padding:1.5rem 0.7rem;
+          padding: 2*$padding-unit $padding-unit;
           text-align: center;
       }
   }
